@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB266CD02D4882EB00CA7642 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = AB266CCF2D4882EB00CA7642 /* CodeScanner */; };
+		BD3ABA582D5888730032CF70 /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = BD3ABA572D5888730032CF70 /* Stripe */; };
+		BD3ABA5A2D5888730032CF70 /* StripeApplePay in Frameworks */ = {isa = PBXBuildFile; productRef = BD3ABA592D5888730032CF70 /* StripeApplePay */; };
+		BD3ABA5C2D5888730032CF70 /* StripeCardScan in Frameworks */ = {isa = PBXBuildFile; productRef = BD3ABA5B2D5888730032CF70 /* StripeCardScan */; };
+		BD3ABA5E2D5888730032CF70 /* StripeConnect in Frameworks */ = {isa = PBXBuildFile; productRef = BD3ABA5D2D5888730032CF70 /* StripeConnect */; };
+		BD3ABA602D5888730032CF70 /* StripeFinancialConnections in Frameworks */ = {isa = PBXBuildFile; productRef = BD3ABA5F2D5888730032CF70 /* StripeFinancialConnections */; };
+		BD3ABA622D5888730032CF70 /* StripeIdentity in Frameworks */ = {isa = PBXBuildFile; productRef = BD3ABA612D5888730032CF70 /* StripeIdentity */; };
+		BD3ABA642D5888730032CF70 /* StripePaymentSheet in Frameworks */ = {isa = PBXBuildFile; productRef = BD3ABA632D5888730032CF70 /* StripePaymentSheet */; };
+		BD3ABA662D5888730032CF70 /* StripePayments in Frameworks */ = {isa = PBXBuildFile; productRef = BD3ABA652D5888730032CF70 /* StripePayments */; };
+		BD3ABA682D5888730032CF70 /* StripePaymentsUI in Frameworks */ = {isa = PBXBuildFile; productRef = BD3ABA672D5888730032CF70 /* StripePaymentsUI */; };
+		BD3ABA6B2D5888D10032CF70 /* BitCollections in Frameworks */ = {isa = PBXBuildFile; productRef = BD3ABA6A2D5888D10032CF70 /* BitCollections */; };
+		BD3ABA6D2D5888D10032CF70 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = BD3ABA6C2D5888D10032CF70 /* Collections */; };
+		BD3ABA6F2D5888D10032CF70 /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = BD3ABA6E2D5888D10032CF70 /* DequeModule */; };
+		BD3ABA712D5888D10032CF70 /* HashTreeCollections in Frameworks */ = {isa = PBXBuildFile; productRef = BD3ABA702D5888D10032CF70 /* HashTreeCollections */; };
+		BD3ABA732D5888D10032CF70 /* HeapModule in Frameworks */ = {isa = PBXBuildFile; productRef = BD3ABA722D5888D10032CF70 /* HeapModule */; };
+		BD3ABA752D5888D10032CF70 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = BD3ABA742D5888D10032CF70 /* OrderedCollections */; };
+		BD3ABA772D5888D10032CF70 /* _RopeModule in Frameworks */ = {isa = PBXBuildFile; productRef = BD3ABA762D5888D10032CF70 /* _RopeModule */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABD5A29A2D273109001521B5 /* AggieEats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AggieEats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ABD5A29C2D273109001521B5 /* AggieEats */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AggieEats;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABD5A2972D273109001521B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3ABA662D5888730032CF70 /* StripePayments in Frameworks */,
+				BD3ABA732D5888D10032CF70 /* HeapModule in Frameworks */,
+				BD3ABA642D5888730032CF70 /* StripePaymentSheet in Frameworks */,
+				BD3ABA5C2D5888730032CF70 /* StripeCardScan in Frameworks */,
+				BD3ABA602D5888730032CF70 /* StripeFinancialConnections in Frameworks */,
+				BD3ABA5A2D5888730032CF70 /* StripeApplePay in Frameworks */,
+				BD3ABA752D5888D10032CF70 /* OrderedCollections in Frameworks */,
+				BD3ABA622D5888730032CF70 /* StripeIdentity in Frameworks */,
+				BD3ABA6D2D5888D10032CF70 /* Collections in Frameworks */,
+				BD3ABA6F2D5888D10032CF70 /* DequeModule in Frameworks */,
+				BD3ABA772D5888D10032CF70 /* _RopeModule in Frameworks */,
+				AB266CD02D4882EB00CA7642 /* CodeScanner in Frameworks */,
+				BD3ABA582D5888730032CF70 /* Stripe in Frameworks */,
+				BD3ABA712D5888D10032CF70 /* HashTreeCollections in Frameworks */,
+				BD3ABA682D5888730032CF70 /* StripePaymentsUI in Frameworks */,
+				BD3ABA5E2D5888730032CF70 /* StripeConnect in Frameworks */,
+				BD3ABA6B2D5888D10032CF70 /* BitCollections in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABD5A2912D273109001521B5 = {
+			isa = PBXGroup;
+			children = (
+				ABD5A29C2D273109001521B5 /* AggieEats */,
+				ABD5A29B2D273109001521B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABD5A29B2D273109001521B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABD5A29A2D273109001521B5 /* AggieEats.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABD5A2992D273109001521B5 /* AggieEats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD5A2A82D27310B001521B5 /* Build configuration list for PBXNativeTarget "AggieEats" */;
+			buildPhases = (
+				ABD5A2962D273109001521B5 /* Sources */,
+				ABD5A2972D273109001521B5 /* Frameworks */,
+				ABD5A2982D273109001521B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ABD5A29C2D273109001521B5 /* AggieEats */,
+			);
+			name = AggieEats;
+			packageProductDependencies = (
+				AB266CCF2D4882EB00CA7642 /* CodeScanner */,
+				BD3ABA572D5888730032CF70 /* Stripe */,
+				BD3ABA592D5888730032CF70 /* StripeApplePay */,
+				BD3ABA5B2D5888730032CF70 /* StripeCardScan */,
+				BD3ABA5D2D5888730032CF70 /* StripeConnect */,
+				BD3ABA5F2D5888730032CF70 /* StripeFinancialConnections */,
+				BD3ABA612D5888730032CF70 /* StripeIdentity */,
+				BD3ABA632D5888730032CF70 /* StripePaymentSheet */,
+				BD3ABA652D5888730032CF70 /* StripePayments */,
+				BD3ABA672D5888730032CF70 /* StripePaymentsUI */,
+				BD3ABA6A2D5888D10032CF70 /* BitCollections */,
+				BD3ABA6C2D5888D10032CF70 /* Collections */,
+				BD3ABA6E2D5888D10032CF70 /* DequeModule */,
+				BD3ABA702D5888D10032CF70 /* HashTreeCollections */,
+				BD3ABA722D5888D10032CF70 /* HeapModule */,
+				BD3ABA742D5888D10032CF70 /* OrderedCollections */,
+				BD3ABA762D5888D10032CF70 /* _RopeModule */,
+			);
+			productName = AggieEats;
+			productReference = ABD5A29A2D273109001521B5 /* AggieEats.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABD5A2922D273109001521B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					ABD5A2992D273109001521B5 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = ABD5A2952D273109001521B5 /* Build configuration list for PBXProject "AggieEats" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABD5A2912D273109001521B5;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AB266CCE2D4882EB00CA7642 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+				BD3ABA562D5888730032CF70 /* XCRemoteSwiftPackageReference "stripe-ios" */,
+				BD3ABA692D5888D10032CF70 /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ABD5A29B2D273109001521B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABD5A2992D273109001521B5 /* AggieEats */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABD5A2982D273109001521B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABD5A2962D273109001521B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ABD5A2A62D27310B001521B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABD5A2A72D27310B001521B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABD5A2A92D27310B001521B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AggieEats/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftCodingClub.AggieEats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABD5A2AA2D27310B001521B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AggieEats/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftCodingClub.AggieEats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABD5A2952D273109001521B5 /* Build configuration list for PBXProject "AggieEats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD5A2A62D27310B001521B5 /* Debug */,
+				ABD5A2A72D27310B001521B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD5A2A82D27310B001521B5 /* Build configuration list for PBXNativeTarget "AggieEats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD5A2A92D27310B001521B5 /* Debug */,
+				ABD5A2AA2D27310B001521B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AB266CCE2D4882EB00CA7642 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.2;
+			};
+		};
+		BD3ABA562D5888730032CF70 /* XCRemoteSwiftPackageReference "stripe-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stripe/stripe-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 24.4.1;
+			};
+		};
+		BD3ABA692D5888D10032CF70 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AB266CCF2D4882EB00CA7642 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB266CCE2D4882EB00CA7642 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+		BD3ABA572D5888730032CF70 /* Stripe */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD3ABA562D5888730032CF70 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = Stripe;
+		};
+		BD3ABA592D5888730032CF70 /* StripeApplePay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD3ABA562D5888730032CF70 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripeApplePay;
+		};
+		BD3ABA5B2D5888730032CF70 /* StripeCardScan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD3ABA562D5888730032CF70 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripeCardScan;
+		};
+		BD3ABA5D2D5888730032CF70 /* StripeConnect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD3ABA562D5888730032CF70 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripeConnect;
+		};
+		BD3ABA5F2D5888730032CF70 /* StripeFinancialConnections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD3ABA562D5888730032CF70 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripeFinancialConnections;
+		};
+		BD3ABA612D5888730032CF70 /* StripeIdentity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD3ABA562D5888730032CF70 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripeIdentity;
+		};
+		BD3ABA632D5888730032CF70 /* StripePaymentSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD3ABA562D5888730032CF70 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripePaymentSheet;
+		};
+		BD3ABA652D5888730032CF70 /* StripePayments */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD3ABA562D5888730032CF70 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripePayments;
+		};
+		BD3ABA672D5888730032CF70 /* StripePaymentsUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD3ABA562D5888730032CF70 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripePaymentsUI;
+		};
+		BD3ABA6A2D5888D10032CF70 /* BitCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD3ABA692D5888D10032CF70 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = BitCollections;
+		};
+		BD3ABA6C2D5888D10032CF70 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD3ABA692D5888D10032CF70 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		BD3ABA6E2D5888D10032CF70 /* DequeModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD3ABA692D5888D10032CF70 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = DequeModule;
+		};
+		BD3ABA702D5888D10032CF70 /* HashTreeCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD3ABA692D5888D10032CF70 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = HashTreeCollections;
+		};
+		BD3ABA722D5888D10032CF70 /* HeapModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD3ABA692D5888D10032CF70 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = HeapModule;
+		};
+		BD3ABA742D5888D10032CF70 /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD3ABA692D5888D10032CF70 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+		BD3ABA762D5888D10032CF70 /* _RopeModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD3ABA692D5888D10032CF70 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = _RopeModule;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ABD5A2922D273109001521B5 /* Project object */;
+}

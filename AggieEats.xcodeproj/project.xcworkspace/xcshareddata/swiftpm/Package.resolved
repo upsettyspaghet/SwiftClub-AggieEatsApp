@@ -1,0 +1,33 @@
+{
+  "originHash" : "29c139c0e4744d2208d2f131a6eece0871e068dd510b5f51bab32913042d0ff5",
+  "pins" : [
+    {
+      "identity" : "codescanner",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/twostraws/CodeScanner",
+      "state" : {
+        "revision" : "5e886430238944c7200fc9e10dbf2d9550dba865",
+        "version" : "2.5.2"
+      }
+    },
+    {
+      "identity" : "stripe-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stripe/stripe-ios.git",
+      "state" : {
+        "revision" : "2fa6a66bc77c27b38aee3c41d4526e32c8b92e5f",
+        "version" : "24.4.1"
+      }
+    },
+    {
+      "identity" : "swift-collections",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-collections.git",
+      "state" : {
+        "revision" : "671108c96644956dddcd89dd59c203dcdb36cec7",
+        "version" : "1.1.4"
+      }
+    }
+  ],
+  "version" : 3
+}
